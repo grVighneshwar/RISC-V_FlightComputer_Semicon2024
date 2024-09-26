@@ -32,6 +32,7 @@ the transmitter module and the receiver module. The transmitter processes user i
 - **RISC-V CH32V003 Microcontroller**:
   This is the core of the flight computer, processing all inputs received from the Arduino Nano via I2C. It controls flight mechanics such as throttle, rudder, and other vital functions, ensuring stable and precise operation.
    ![image](https://github.com/user-attachments/assets/e726c532-e4cd-4186-8594-2f8715d40bba)
+
 ## **Technical Specifications**
 - **Microcontroller**: RISC-V CH32V003 (on VSD Squadron Mini)
 - **Transmitter**: Arduino Nano
@@ -39,7 +40,12 @@ the transmitter module and the receiver module. The transmitter processes user i
 - **Wireless Communication Module**: NRF24L01+ using SPI
 - **Inter-Module Communication**: I2C between Arduino Nano (Receiver) and VSD Squadron Mini
 ## **Circut diagram**
+- Transmitter circut diagram
 ![image](https://github.com/user-attachments/assets/95f583b6-9120-4634-aedc-3956e72db03b)
+- Reciver circut dig
+![image](https://github.com/user-attachments/assets/6e9350f8-c33d-4584-aca1-6f050fcc538b)
+
+
 ## **RISCV FC Code**
 ```
 int ch_1=0;
@@ -103,6 +109,7 @@ void loop()
   }
 }
 ```
+
 **Aurduino code**
 ```
 #include <SPI.h>
@@ -188,6 +195,7 @@ delay(100);
 }
 ```
 ## **Transmitter code**
+
 ```
 #include <SPI.h>
 #include <nRF24L01.h>
@@ -236,6 +244,7 @@ delay(100);
   radio.write(&data, sizeof(Signal));
 }
 ```
+
 ## **Protocols**:
 - **SPI**: Transmitter and Receiver communication through NRF24L01+.
 - **I2C**: Communication between Receiver and VSD Squadron Mini for flight control.
