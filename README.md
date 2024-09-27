@@ -256,6 +256,9 @@ delay(100);
 - **Flight Control**: Full control over flight operations such as throttle, ailerons, elevators, and rudders.
 ## **Groundlevel Testing**
 https://private-user-images.githubusercontent.com/171113429/371167415-71c4f411-5ce5-4add-9790-7fed913bb83c.mp4?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MjczNTkxNzEsIm5iZiI6MTcyNzM1ODg3MSwicGF0aCI6Ii8xNzExMTM0MjkvMzcxMTY3NDE1LTcxYzRmNDExLTVjZTUtNGFkZC05NzkwLTdmZWQ5MTNiYjgzYy5tcDQ_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjQwOTI2JTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI0MDkyNlQxMzU0MzFaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1hMzk4ZjI2MGMyNWI5MzI4NmVlYWE2YTYzMDA2MDY2OTg5NTYxYzlhMDY1MTJlZWQwMGFiMDJlNTlkNWE5ZDg2JlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.ssfpFbvQ6cQTE-n4JJcjUm1Lyu-J44KsjigxSA1eM5c
+## **Semicon**
+https://github.com/user-attachments/assets/94c8d74a-792c-4c41-a822-38ce032a5a74
+
 
 ## **Applications**
 - UAV (Unmanned Aerial Vehicles)
@@ -266,3 +269,6 @@ https://private-user-images.githubusercontent.com/171113429/371167415-71c4f411-5
 - Addition of GPS and other telemetry systems for advanced navigation and autonomous flight.
 - Integration of machine learning algorithms for predictive control and autonomous decision-making.
 - Expansion to multi-channel communication for more complex flight operations and real-time data analytics.
+
+
+
